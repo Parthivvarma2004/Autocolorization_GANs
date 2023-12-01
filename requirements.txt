@@ -110,3 +110,9 @@ wikipedia
 huggingface_hub
 openpyxl
 xlsxwriter
+torch
+torchvision
+matplotlib
+opencv-python
+fastai
+io
