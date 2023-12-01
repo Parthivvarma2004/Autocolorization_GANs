@@ -115,4 +115,3 @@ torchvision
 matplotlib
 opencv-python
 fastai
-io
