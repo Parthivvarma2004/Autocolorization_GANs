@@ -129,7 +129,7 @@ if uploaded_file is not None:
         
 st.title('L1 Checker')
 
-uploaded_file = st.file_uploader("Choose a colored image. Our model will produce the black and white version of it and color it so you can see how accuracte it is to the real image.", type=["jpg", "png", "jpeg"])
+uploaded_file = st.file_uploader("Choose a colored image. Our model will produce the black and white version of it and color it so you can see how accurate it is to the real image.", type=["jpg", "png", "jpeg"])
 colored_image = Image.fromarray(np.zeros((5, 5)))  # Replace (5, 5) with the desired shape
 
 if uploaded_file is not None:
